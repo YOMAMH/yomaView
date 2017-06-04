@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		6D9FF0F71460CA9C76C8470B /* Pods_yomaView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DE1EC677A0C352FD3E01283 /* Pods_yomaView.framework */; };
+		841984E71EE19E3F005C6755 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841984E61EE19E3F005C6755 /* AFNetworking.framework */; };
+		841984E91EE19E44005C6755 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841984E81EE19E44005C6755 /* SDWebImage.framework */; };
+		841984EB1EE19F77005C6755 /* NetWorkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841984EA1EE19F77005C6755 /* NetWorkTools.swift */; };
 		843E40CD1EDE6DAA00B1BFC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E40CC1EDE6DAA00B1BFC2 /* AppDelegate.swift */; };
 		843E40D41EDE6DAA00B1BFC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843E40D31EDE6DAA00B1BFC2 /* Assets.xcassets */; };
 		843E40D71EDE6DAA00B1BFC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843E40D51EDE6DAA00B1BFC2 /* LaunchScreen.storyboard */; };
 		843E40E21EDE6DAB00B1BFC2 /* yomaViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E40E11EDE6DAB00B1BFC2 /* yomaViewTests.swift */; };
 		843E40ED1EDE6DAB00B1BFC2 /* yomaViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E40EC1EDE6DAB00B1BFC2 /* yomaViewUITests.swift */; };
-		843E42341EDE713F00B1BFC2 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843E42331EDE713F00B1BFC2 /* AFNetworking.framework */; };
-		843E42361EDE714300B1BFC2 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843E42351EDE714300B1BFC2 /* SDWebImage.framework */; };
-		845BAFC31EDFD3F40053C287 /* shareNetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BAFC21EDFD3F40053C287 /* shareNetworkTool.swift */; };
 		845BAFC51EDFD5EF0053C287 /* mainTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BAFC41EDFD5EF0053C287 /* mainTabbarController.swift */; };
 		845BAFC81EDFE4240053C287 /* meNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BAFC71EDFE4240053C287 /* meNav.swift */; };
-		845BAFCB1EDFE4450053C287 /* meViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BAFC91EDFE4450053C287 /* meViewController.swift */; };
 		845BAFCC1EDFE4450053C287 /* meViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845BAFCA1EDFE4450053C287 /* meViewController.xib */; };
 		845BAFCF1EDFF6BD0053C287 /* singoInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BAFCD1EDFF6BD0053C287 /* singoInViewController.swift */; };
 		845BAFD01EDFF6BD0053C287 /* singoInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845BAFCE1EDFF6BD0053C287 /* singoInViewController.xib */; };
+		84C9D6DB1EE4016E00A45813 /* meViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9D6DA1EE4016E00A45813 /* meViewController.swift */; };
 		D52031AF04B656BF322CF69F /* Pods_yomaViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75E444D1E0420158B3E59C24 /* Pods_yomaViewUITests.framework */; };
 		E52502F8B2C582C55D450F50 /* Pods_yomaViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02F0878E24A1CA8A5FB3AA25 /* Pods_yomaViewTests.framework */; };
 /* End PBXBuildFile section */
@@ -49,6 +49,9 @@
 		0DE1EC677A0C352FD3E01283 /* Pods_yomaView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yomaView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ACEB4AC209D074634FC32F5 /* Pods-yomaViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yomaViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yomaViewTests/Pods-yomaViewTests.debug.xcconfig"; sourceTree = "<group>"; };
 		75E444D1E0420158B3E59C24 /* Pods_yomaViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yomaViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		841984E61EE19E3F005C6755 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "Pods/../build/Debug-iphoneos/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
+		841984E81EE19E44005C6755 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = "Pods/../build/Debug-iphoneos/SDWebImage/SDWebImage.framework"; sourceTree = "<group>"; };
+		841984EA1EE19F77005C6755 /* NetWorkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkTools.swift; sourceTree = "<group>"; };
 		843E40C91EDE6DAA00B1BFC2 /* yomaView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yomaView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		843E40CC1EDE6DAA00B1BFC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		843E40D31EDE6DAA00B1BFC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -62,13 +65,12 @@
 		843E40EE1EDE6DAB00B1BFC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		843E42331EDE713F00B1BFC2 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "../../Library/Developer/Xcode/DerivedData/yomaView-cfmoxvdejwahqzbzakiguiewgttr/Build/Products/Debug-iphonesimulator/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
 		843E42351EDE714300B1BFC2 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = "../../Library/Developer/Xcode/DerivedData/yomaView-cfmoxvdejwahqzbzakiguiewgttr/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework"; sourceTree = "<group>"; };
-		845BAFC21EDFD3F40053C287 /* shareNetworkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = shareNetworkTool.swift; path = ../../shareNetworkTool.swift; sourceTree = "<group>"; };
 		845BAFC41EDFD5EF0053C287 /* mainTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainTabbarController.swift; sourceTree = "<group>"; };
 		845BAFC71EDFE4240053C287 /* meNav.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = meNav.swift; sourceTree = "<group>"; };
-		845BAFC91EDFE4450053C287 /* meViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = meViewController.swift; sourceTree = "<group>"; };
 		845BAFCA1EDFE4450053C287 /* meViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = meViewController.xib; sourceTree = "<group>"; };
 		845BAFCD1EDFF6BD0053C287 /* singoInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = singoInViewController.swift; sourceTree = "<group>"; };
 		845BAFCE1EDFF6BD0053C287 /* singoInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = singoInViewController.xib; sourceTree = "<group>"; };
+		84C9D6DA1EE4016E00A45813 /* meViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = meViewController.swift; sourceTree = "<group>"; };
 		972D1110EC08E01861F9BCA5 /* Pods-yomaViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yomaViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-yomaViewUITests/Pods-yomaViewUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D8AAB718D11555EA891A41AA /* Pods-yomaView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yomaView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yomaView/Pods-yomaView.debug.xcconfig"; sourceTree = "<group>"; };
 		EC8528A89A5A68656FECE2CF /* Pods-yomaView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yomaView.release.xcconfig"; path = "Pods/Target Support Files/Pods-yomaView/Pods-yomaView.release.xcconfig"; sourceTree = "<group>"; };
@@ -80,8 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				843E42361EDE714300B1BFC2 /* SDWebImage.framework in Frameworks */,
-				843E42341EDE713F00B1BFC2 /* AFNetworking.framework in Frameworks */,
+				841984E91EE19E44005C6755 /* SDWebImage.framework in Frameworks */,
+				841984E71EE19E3F005C6755 /* AFNetworking.framework in Frameworks */,
 				6D9FF0F71460CA9C76C8470B /* Pods_yomaView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,7 +164,7 @@
 		843E42371EDE715E00B1BFC2 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				845BAFC21EDFD3F40053C287 /* shareNetworkTool.swift */,
+				841984EA1EE19F77005C6755 /* NetWorkTools.swift */,
 			);
 			name = Tools;
 			sourceTree = "<group>";
@@ -170,29 +172,13 @@
 		845BAFC61EDFE3ED0053C287 /* me */ = {
 			isa = PBXGroup;
 			children = (
-				845BAFD31EDFF6E40053C287 /* controllers */,
-				845BAFD21EDFF6DA0053C287 /* views */,
-			);
-			name = me;
-			sourceTree = "<group>";
-		};
-		845BAFD21EDFF6DA0053C287 /* views */ = {
-			isa = PBXGroup;
-			children = (
+				845BAFCD1EDFF6BD0053C287 /* singoInViewController.swift */,
 				845BAFCE1EDFF6BD0053C287 /* singoInViewController.xib */,
 				845BAFCA1EDFE4450053C287 /* meViewController.xib */,
-			);
-			name = views;
-			sourceTree = "<group>";
-		};
-		845BAFD31EDFF6E40053C287 /* controllers */ = {
-			isa = PBXGroup;
-			children = (
-				845BAFCD1EDFF6BD0053C287 /* singoInViewController.swift */,
-				845BAFC91EDFE4450053C287 /* meViewController.swift */,
 				845BAFC71EDFE4240053C287 /* meNav.swift */,
+				84C9D6DA1EE4016E00A45813 /* meViewController.swift */,
 			);
-			name = controllers;
+			name = me;
 			sourceTree = "<group>";
 		};
 		8B5E89B73144E0A347FD6079 /* Pods */ = {
@@ -211,6 +197,8 @@
 		8D2B550974D62DA3A7CF01BB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				841984E81EE19E44005C6755 /* SDWebImage.framework */,
+				841984E61EE19E3F005C6755 /* AFNetworking.framework */,
 				843E42351EDE714300B1BFC2 /* SDWebImage.framework */,
 				843E42331EDE713F00B1BFC2 /* AFNetworking.framework */,
 				0DE1EC677A0C352FD3E01283 /* Pods_yomaView.framework */,
@@ -505,12 +493,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				845BAFC31EDFD3F40053C287 /* shareNetworkTool.swift in Sources */,
+				84C9D6DB1EE4016E00A45813 /* meViewController.swift in Sources */,
 				845BAFC81EDFE4240053C287 /* meNav.swift in Sources */,
 				845BAFC51EDFD5EF0053C287 /* mainTabbarController.swift in Sources */,
+				841984EB1EE19F77005C6755 /* NetWorkTools.swift in Sources */,
 				843E40CD1EDE6DAA00B1BFC2 /* AppDelegate.swift in Sources */,
 				845BAFCF1EDFF6BD0053C287 /* singoInViewController.swift in Sources */,
-				845BAFCB1EDFE4450053C287 /* meViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -656,6 +644,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3H3HQC3497;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SDWebImage",
+				);
 				INFOPLIST_FILE = yomaView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ren.yomaView;
@@ -670,6 +663,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3H3HQC3497;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SDWebImage",
+				);
 				INFOPLIST_FILE = yomaView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ren.yomaView;

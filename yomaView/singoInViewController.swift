@@ -29,13 +29,16 @@ class singoInViewController: UIViewController {
         self.view.endEditing(true);
         
         if (!USER_NAME.isEmpty && !PASS_WORD.isEmpty) {
-            shareNetwork.request(requestMethod: HTTPRequestMethod.POST, urlString: Domain.appending("user/singIn"), parameters: ["user": USER_NAME as AnyObject, "password": PASS_WORD as AnyObject]) { (res) in
-                print(res!);
-                var User : AnyObject? = nil;
-                User = res?["UserSet"] as AnyObject;
-                print(User?["UserName"]! ?? "");
+            shareNetwork.request(requestType: HTTPRequestMethod.POST, urlString: Domain.appending("user/singoIn"), parameters: ["user": USER_NAME as AnyObject, "password": PASS_WORD as AnyObject]) { (res) in
             
-                
+                var User : AnyObject? = nil;
+                User = res?["Date"] as AnyObject;
+                User = User?[0] as AnyObject
+                let user = User?["UserName"]! as! String;
+                print(user);
+                self.sendMsg(name: user);
+                self.navigationController?.dismiss(animated: true, completion: nil);
+            
             }
         } else {
             self.alert(message: "用户名或密码不能为空!");
@@ -46,10 +49,8 @@ class singoInViewController: UIViewController {
     }
     
     @IBAction func loginInBtn(_ sender: UIButton) {
-        print("发送通知");
-        let notificationName = Notification.Name(rawValue: "dismissSingoView");
-        NotificationCenter.default.post(name: notificationName, object: self, userInfo: ["userName":"xiaoming"]);
-        print("通知完毕");
+
+        
     }
     
     override func viewDidLoad() {
@@ -87,6 +88,12 @@ class singoInViewController: UIViewController {
         alertController.addAction(okAction);
         
         self.present(alertController, animated: true, completion: nil);
+    }
+    
+    // 发送通知
+    func sendMsg(name: String)  {
+        let notificationName = Notification.Name(rawValue: "dismissSingoView");
+        NotificationCenter.default.post(name: notificationName, object: self, userInfo: ["userName":name]);
     }
     
     
