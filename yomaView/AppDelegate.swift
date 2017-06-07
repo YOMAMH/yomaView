@@ -20,12 +20,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let mainTab = mainTabbarController();
         mainTab.tabBar.backgroundColor = UIColor.white;
         let meVc = meViewController();
-        let homeVc = UIViewController();
+        let homeVc = homeTableViewController();
         let channelVc = UIViewController();
         let playVc = UIViewController();
         let roundVc = UIViewController();
        
         let meNavVc = meNav(rootViewController: meVc);
+        let homeNavVc = homeNavViewController(rootViewController: homeVc);
         homeVc.tabBarItem=UITabBarItem(
             title: "首页",
             image: UIImage(named: "home.png"),
@@ -53,7 +54,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         );
        
         
-        mainTab.viewControllers = [homeVc, channelVc, playVc, roundVc, meNavVc];
+        mainTab.viewControllers = [homeNavVc, channelVc, playVc, roundVc, meNavVc];
         self.window?.rootViewController = mainTab;
         self.window?.makeKeyAndVisible();
         return true

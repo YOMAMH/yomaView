@@ -7,8 +7,9 @@ target 'yomaView' do
   use_frameworks!
     pod 'AFNetworking', '~> 3.0'
     pod 'SDWebImage', '~>3.0'
-
-
+    pod 'ImageSlideshow', '~> 1.0'
+    pod "ImageSlideshow/Alamofire", '~> 1.0'
+  
   target 'yomaViewTests' do
     inherit! :search_paths
     # Pods for testing

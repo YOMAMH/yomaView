@@ -11,6 +11,13 @@
 		841984E71EE19E3F005C6755 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841984E61EE19E3F005C6755 /* AFNetworking.framework */; };
 		841984E91EE19E44005C6755 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841984E81EE19E44005C6755 /* SDWebImage.framework */; };
 		841984EB1EE19F77005C6755 /* NetWorkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841984EA1EE19F77005C6755 /* NetWorkTools.swift */; };
+		843712C71EE50AC500BCD91D /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843712C51EE50AC500BCD91D /* loginViewController.swift */; };
+		843712C81EE50AC500BCD91D /* loginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843712C61EE50AC500BCD91D /* loginViewController.xib */; };
+		843712CA1EE54DD400BCD91D /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843712C91EE54DD400BCD91D /* AlamofireImage.framework */; };
+		843712CC1EE54DD900BCD91D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843712CB1EE54DD900BCD91D /* Alamofire.framework */; };
+		843712CE1EE54DDE00BCD91D /* ImageSlideshow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843712CD1EE54DDE00BCD91D /* ImageSlideshow.framework */; };
+		843712D11EE54E1100BCD91D /* homeNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843712D01EE54E1100BCD91D /* homeNavViewController.swift */; };
+		843712D91EE5563A00BCD91D /* homeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843712D81EE5563A00BCD91D /* homeTableViewController.swift */; };
 		843E40CD1EDE6DAA00B1BFC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E40CC1EDE6DAA00B1BFC2 /* AppDelegate.swift */; };
 		843E40D41EDE6DAA00B1BFC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843E40D31EDE6DAA00B1BFC2 /* Assets.xcassets */; };
 		843E40D71EDE6DAA00B1BFC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843E40D51EDE6DAA00B1BFC2 /* LaunchScreen.storyboard */; };
@@ -52,6 +59,13 @@
 		841984E61EE19E3F005C6755 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "Pods/../build/Debug-iphoneos/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
 		841984E81EE19E44005C6755 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = "Pods/../build/Debug-iphoneos/SDWebImage/SDWebImage.framework"; sourceTree = "<group>"; };
 		841984EA1EE19F77005C6755 /* NetWorkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkTools.swift; sourceTree = "<group>"; };
+		843712C51EE50AC500BCD91D /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		843712C61EE50AC500BCD91D /* loginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = loginViewController.xib; sourceTree = "<group>"; };
+		843712C91EE54DD400BCD91D /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = "../../Library/Developer/Xcode/DerivedData/yomaView-cfmoxvdejwahqzbzakiguiewgttr/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework"; sourceTree = "<group>"; };
+		843712CB1EE54DD900BCD91D /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../Library/Developer/Xcode/DerivedData/yomaView-cfmoxvdejwahqzbzakiguiewgttr/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		843712CD1EE54DDE00BCD91D /* ImageSlideshow.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageSlideshow.framework; path = "../../Library/Developer/Xcode/DerivedData/yomaView-cfmoxvdejwahqzbzakiguiewgttr/Build/Products/Debug-iphonesimulator/ImageSlideshow/ImageSlideshow.framework"; sourceTree = "<group>"; };
+		843712D01EE54E1100BCD91D /* homeNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeNavViewController.swift; sourceTree = "<group>"; };
+		843712D81EE5563A00BCD91D /* homeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeTableViewController.swift; sourceTree = "<group>"; };
 		843E40C91EDE6DAA00B1BFC2 /* yomaView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yomaView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		843E40CC1EDE6DAA00B1BFC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		843E40D31EDE6DAA00B1BFC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -82,6 +96,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843712CE1EE54DDE00BCD91D /* ImageSlideshow.framework in Frameworks */,
+				843712CC1EE54DD900BCD91D /* Alamofire.framework in Frameworks */,
+				843712CA1EE54DD400BCD91D /* AlamofireImage.framework in Frameworks */,
 				841984E91EE19E44005C6755 /* SDWebImage.framework in Frameworks */,
 				841984E71EE19E3F005C6755 /* AFNetworking.framework in Frameworks */,
 				6D9FF0F71460CA9C76C8470B /* Pods_yomaView.framework in Frameworks */,
@@ -107,6 +124,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		843712CF1EE54DEC00BCD91D /* home */ = {
+			isa = PBXGroup;
+			children = (
+				843712D01EE54E1100BCD91D /* homeNavViewController.swift */,
+				843712D81EE5563A00BCD91D /* homeTableViewController.swift */,
+			);
+			name = home;
+			sourceTree = "<group>";
+		};
 		843E40C01EDE6DAA00B1BFC2 = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +158,7 @@
 		843E40CB1EDE6DAA00B1BFC2 /* yomaView */ = {
 			isa = PBXGroup;
 			children = (
+				843712CF1EE54DEC00BCD91D /* home */,
 				845BAFC61EDFE3ED0053C287 /* me */,
 				843E42371EDE715E00B1BFC2 /* Tools */,
 				843E40CC1EDE6DAA00B1BFC2 /* AppDelegate.swift */,
@@ -177,6 +204,8 @@
 				845BAFCA1EDFE4450053C287 /* meViewController.xib */,
 				845BAFC71EDFE4240053C287 /* meNav.swift */,
 				84C9D6DA1EE4016E00A45813 /* meViewController.swift */,
+				843712C51EE50AC500BCD91D /* loginViewController.swift */,
+				843712C61EE50AC500BCD91D /* loginViewController.xib */,
 			);
 			name = me;
 			sourceTree = "<group>";
@@ -197,6 +226,9 @@
 		8D2B550974D62DA3A7CF01BB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				843712CD1EE54DDE00BCD91D /* ImageSlideshow.framework */,
+				843712CB1EE54DD900BCD91D /* Alamofire.framework */,
+				843712C91EE54DD400BCD91D /* AlamofireImage.framework */,
 				841984E81EE19E44005C6755 /* SDWebImage.framework */,
 				841984E61EE19E3F005C6755 /* AFNetworking.framework */,
 				843E42351EDE714300B1BFC2 /* SDWebImage.framework */,
@@ -329,6 +361,7 @@
 			files = (
 				845BAFD01EDFF6BD0053C287 /* singoInViewController.xib in Resources */,
 				843E40D71EDE6DAA00B1BFC2 /* LaunchScreen.storyboard in Resources */,
+				843712C81EE50AC500BCD91D /* loginViewController.xib in Resources */,
 				843E40D41EDE6DAA00B1BFC2 /* Assets.xcassets in Resources */,
 				845BAFCC1EDFE4450053C287 /* meViewController.xib in Resources */,
 			);
@@ -493,8 +526,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843712D91EE5563A00BCD91D /* homeTableViewController.swift in Sources */,
+				843712C71EE50AC500BCD91D /* loginViewController.swift in Sources */,
 				84C9D6DB1EE4016E00A45813 /* meViewController.swift in Sources */,
 				845BAFC81EDFE4240053C287 /* meNav.swift in Sources */,
+				843712D11EE54E1100BCD91D /* homeNavViewController.swift in Sources */,
 				845BAFC51EDFD5EF0053C287 /* mainTabbarController.swift in Sources */,
 				841984EB1EE19F77005C6755 /* NetWorkTools.swift in Sources */,
 				843E40CD1EDE6DAA00B1BFC2 /* AppDelegate.swift in Sources */,

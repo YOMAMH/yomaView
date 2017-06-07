@@ -9,6 +9,26 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>AlamofireImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ImageSlideshow-ImageSlideshow.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ImageSlideshow.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-yomaView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -31,6 +51,52 @@
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict/>
+	<dict>
+		<key>0092A0366D737F68DDB471E705B8CCB9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1FB06C0FBC7FCBC6D7CDCF2BC3FF879B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5276FBBB1CDF68C5EA3B5D36F5756A14</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A4051433B7F30BDDB1E5A3BFCFABF25</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8DE4B7256A057955D038787D7B8FF77E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9EFE4C70245EE2857D336B8B9FA4E825</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B6A294FFA9F7F35AFAB4A7F5FAD6DDC0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CF671F7E57B92905F1CC91D036D6B4A7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>
